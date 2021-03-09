@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "catalog-UI"
+    }
+  },
+  "defaultProject": "catalog-UI",
+  "cli": {
+    "analytics": "a3404987-b953-4aba-a8c8-6d233c965c78"
+  }
 }

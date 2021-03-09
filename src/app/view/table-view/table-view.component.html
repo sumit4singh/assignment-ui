@@ -1,0 +1,22 @@
+<div class="form-group form-inline">
+    search by name: <input class="form-control ml-2" type="text" [(ngModel)]="SearchName"/>
+    <button (click)="filterElement()">search</button>
+</div>
+<div class="form-group form-inline">
+    search by gener: <input class="form-control ml-2" type="text" [(ngModel)]="searchGener"/>
+    <button (click)="filterByGeners()">search</button>
+</div>
+<table class="table table-hover">
+    <thead>
+        <th scope="col" *ngFor="let column of header">
+            {{column}}
+        </th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of booksList">
+            <td *ngFor="let column of header">
+                {{row[column]}}
+            </td>
+        </tr>
+    </tbody>
+</table>
