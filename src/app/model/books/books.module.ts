@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
   ]
 })
 export class BooksModule {
-  public bookID: number;
+  public bookId: number;
   public name: string;
   public genres: string;
   public quantity: number;

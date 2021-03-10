@@ -19,7 +19,7 @@ export class TableViewComponent implements OnInit {
   constructor(public http: HttpClient) {
   }
 
-  public header = ["bookID", "name", "genres", "quantity"];
+  public header = ["bookId", "name", "genres", "quantity"];
   public booksList: BooksModule[];
   public filteredList: BooksModule[];
 
